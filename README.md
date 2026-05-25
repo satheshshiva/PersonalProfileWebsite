@@ -1,6 +1,6 @@
 # sathesh.us
 
-Personal site for Sathesh Sivashanmugam. Built with Next.js 16, React 19, Tailwind CSS v4, and Framer Motion. Exports as a fully static site so it can be hosted anywhere.
+Personal site for Sathesh Sivashanmugam. Built with Next.js 16, React 19, Tailwind CSS v4, and Framer Motion. Exports as a fully static site so it can be hosted anywhere. 
 
 ## Develop
 
