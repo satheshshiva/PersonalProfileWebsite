@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sathesh.us"),
   title: "Sathesh Sivashanmugam — Sr. Cybersecurity Engineer",
   description:
-    "Sr. Cybersecurity Engineer II at American Express. 16+ years building secure systems and scalable architecture. Researcher, awards judge, Harvard-certified leader.",
+    "Sr. Cybersecurity Engineer II at American Express. 17+ years building secure systems and scalable architecture. Researcher, awards judge, Harvard-certified leader.",
   keywords: [
     "Sathesh Sivashanmugam",
     "Cybersecurity Engineer",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sathesh Sivashanmugam — Sr. Cybersecurity Engineer",
     description:
-      "16+ years in secure systems & scalable architecture. Driving innovation at American Express.",
+      "17+ years in secure systems & scalable architecture. Driving innovation at American Express.",
     url: "https://sathesh.us",
     siteName: "sathesh.us",
     type: "website",

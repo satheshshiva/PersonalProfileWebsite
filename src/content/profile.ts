@@ -33,16 +33,16 @@ export const profile = {
     "Expert in Secure Systems & Scalable Architecture. Driving innovation at American Express.",
   location: "Glendale, Arizona, USA",
   email: "satheshshiva@gmail.com",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Sathesh_Sivashanmugam.pdf",
   bio: [
-    "I'm a Senior Cybersecurity Engineer with 16+ years of experience designing secure, scalable systems for the world's most demanding financial and consumer-tech platforms — from American Express to Apple Inc.",
+    "I'm a Senior Cybersecurity Engineer with 17+ years of experience designing secure, scalable systems for the world's most demanding financial and consumer-tech platforms — from American Express to Apple Inc.",
     "I thrive on the messy edges where security meets product velocity: encryption, cloud architecture, AI-system threat modeling, and the kind of pragmatic engineering that ships under real constraints.",
     "Outside of shipping code, I judge international technology awards, publish research on AI security, and lead engineering teams with a Harvard-certified leadership lens.",
   ],
   highlights: [
-    { label: "Years of experience", value: "16+" },
+    { label: "Years of experience", value: "17+" },
     { label: "Tenure at American Express", value: "10+ yrs" },
-    { label: "Awards judged", value: "3 categories" },
+    { label: "Awards judged", value: "4 categories" },
     { label: "Published research", value: "LLM Security" },
   ],
   experience: [
@@ -54,7 +54,7 @@ export const profile = {
       end: "Present",
       bullets: [
         "Drive cybersecurity engineering initiatives across mission-critical financial platforms.",
-        "Apply 16+ years of systems and security expertise to safeguard scalable architecture.",
+        "Apply 17+ years of systems and security expertise to safeguard scalable architecture.",
       ],
     },
     {
@@ -127,8 +127,8 @@ export const profile = {
     {
       title: "Globee Awards — Technology Judge",
       description:
-        "Selected as a judge across three Globee Awards categories — Technology, Artificial Intelligence, and Customer Excellence — evaluating innovative products and platforms worldwide.",
-      tags: ["Judging", "AI", "Technology", "Customer Excellence"],
+        "Selected as a judge across four Globee Awards categories — Cybersecurity 2026, Technology, Artificial Intelligence, and Customer Excellence — evaluating innovative products and platforms worldwide.",
+      tags: ["Judging", "Cybersecurity", "AI", "Technology"],
     },
     {
       title: "Security Vulnerability Disclosure — Wipro",
@@ -171,6 +171,7 @@ export const profile = {
   certifications: [
     "Harvard Leadership Excellence",
     "Sun Certified Java Programmer",
+    "Judge — Globee® Awards for Cybersecurity 2026",
     "Judge — Globee® Awards for Technology",
     "Judge — Globee® Awards for Artificial Intelligence",
     "Judge — Globee® Awards for Customer Excellence",
@@ -195,7 +196,7 @@ export const profile = {
     },
     {
       label: "Resume",
-      href: "/resume.pdf",
+      href: "/Sathesh_Sivashanmugam.pdf",
       icon: "file",
     },
   ] as Social[],

@@ -13,7 +13,7 @@ export default function Experience() {
         </Reveal>
         <Reveal delay={0.1}>
           <h2 className="font-display text-4xl sm:text-5xl font-bold tracking-tight mb-16">
-            A <GradientText>16-year</GradientText> career trajectory.
+            A <GradientText>17-year</GradientText> career trajectory.
           </h2>
         </Reveal>
 

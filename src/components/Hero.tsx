@@ -99,7 +99,7 @@ export default function Hero() {
           </MagneticButton>
 
           <MagneticButton
-            href="/resume.pdf"
+            href="/Sathesh_Sivashanmugam.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/15 text-foreground hover:border-white/40 hover:bg-white/[0.03] transition-colors"
             {...{ target: "_blank", rel: "noopener noreferrer" }}
           >

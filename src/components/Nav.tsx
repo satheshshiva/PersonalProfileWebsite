@@ -49,7 +49,7 @@ export default function Nav() {
           ))}
         </ul>
         <a
-          href="/resume.pdf"
+          href="/Sathesh_Sivashanmugam.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden sm:inline-flex items-center gap-2 text-sm px-4 py-2 rounded-full border border-white/10 hover:border-white/30 transition-colors"
