@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# sathesh.us
 
-## Getting Started
+Personal site for Sathesh Sivashanmugam. Built with Next.js 16, React 19, Tailwind CSS v4, and Framer Motion. Exports as a fully static site so it can be hosted anywhere.
 
-First, run the development server:
+## Develop
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build & export
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Generates a static site in the `out/` directory. Upload the contents of `out/` to any static host (S3 + CloudFront, Cloudflare Pages, Netlify, Nginx, GitHub Pages, etc.).
 
-To learn more about Next.js, take a look at the following resources:
+## Update content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All site content lives in **`src/content/profile.ts`** — name, bio, experience, projects, skills, certifications, education, socials. Edit that file and rebuild.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To replace the downloadable resume, drop a new PDF at `public/resume.pdf`.
 
-## Deploy on Vercel
+## File map
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/
+│   ├── layout.tsx          metadata, fonts, theme root
+│   ├── page.tsx            composes all sections
+│   └── globals.css         theme tokens, keyframes, utilities
+├── components/
+│   ├── Nav.tsx             sticky anchor nav
+│   ├── Hero.tsx            animated landing
+│   ├── About.tsx           bio
+│   ├── Experience.tsx      timeline
+│   ├── Projects.tsx        research / recognition cards
+│   ├── Skills.tsx          tech stack + certifications + education
+│   ├── Contact.tsx         email CTA + socials
+│   ├── Footer.tsx
+│   ├── GradientText.tsx    animated gradient text primitive
+│   ├── MagneticButton.tsx  cursor-magnet hover wrapper
+│   ├── Reveal.tsx          scroll-triggered fade/slide
+│   ├── Starfield.tsx       canvas starfield for hero
+│   └── SpotlightBackground.tsx  cursor-following radial glow
+└── content/
+    └── profile.ts          single source of truth for site copy
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stack
+
+- **Next.js 16** (App Router, static export)
+- **React 19**
+- **Tailwind CSS 4**
+- **Framer Motion** — reveal / magnetic / hero animations
+- **lucide-react** — icons
+- **Inter + Space Grotesk** via `next/font`
