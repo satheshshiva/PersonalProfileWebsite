@@ -127,7 +127,7 @@ export const profile = {
     {
       title: "Globee Awards — Technology Judge",
       description:
-        "Selected as a judge across four Globee Awards categories — Cybersecurity 2026, Technology, Artificial Intelligence, and Customer Excellence — evaluating innovative products and platforms worldwide.",
+        "Selected as a judge across four Globee Awards categories — Cybersecurity, Technology, Artificial Intelligence, and Customer Excellence — evaluating innovative products and platforms worldwide.",
       tags: ["Judging", "Cybersecurity", "AI", "Technology"],
     },
     {
@@ -171,7 +171,7 @@ export const profile = {
   certifications: [
     "Harvard Leadership Excellence",
     "Sun Certified Java Programmer",
-    "Judge — Globee® Awards for Cybersecurity 2026",
+    "Judge — Globee® Awards for Cybersecurity",
     "Judge — Globee® Awards for Technology",
     "Judge — Globee® Awards for Artificial Intelligence",
     "Judge — Globee® Awards for Customer Excellence",
